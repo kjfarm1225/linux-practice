@@ -1,3 +1,21 @@
-Linux practice Day
 Linux practice Day1
-Day1まとめ:pwd,ls,cd,echo,cat,touch,rm,を覚えた
+今日の学習内容まとめ
+pwd：今いる場所を確認
+ls：ファイル一覧を表示
+cd：フォルダを移動
+echo：文字を表示・書き込み
+cat：ファイルの中身を見る
+touch：空ファイルを作る
+rm：ファイルを削除
+mkdir：フォルダを作る
+cp：ファイルをコピー
+mv：ファイル名を変更
+less：長いファイルを見る
+man：コマンドの説明を見る
+chmod：権限を変更
+chown：所有者を変更
+sudo：管理者として実行
+git status：状態確認
+git add：変更を登録
+git commit：変更を保存
+
