@@ -1,0 +1,3 @@
+Linux practice Day
+Linux practice Day1
+Day1まとめ:pwd,ls,cd,echo,cat,touch,rm,を覚えた
