@@ -1,0 +1,8 @@
+2024-12-01 10:00 INFO  Server started
+2024-12-01 10:01 INFO  User login success
+2024-12-01 10:02 ERROR Database connection failed
+2024-12-01 10:03 WARN  Disk usage high
+2024-12-01 10:04 ERROR Timeout occurred
+2024-12-01 10:05 INFO  Request completed
+2024-12-01 10:06 ERROR File not found
+2024-12-01 10:07 INFO  Logout success
