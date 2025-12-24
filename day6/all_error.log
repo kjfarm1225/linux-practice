@@ -1,0 +1,5 @@
+logs/app1.log:ERROR db connection failed
+logs/app1.log:ERROR timeout
+logs/app1.log:ERROR new failure
+logs/app2.log:ERROR invalid token
+logs/system.log:ERROR kernel panic

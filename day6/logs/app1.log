@@ -1,0 +1,5 @@
+INFO start app
+ERROR db connection failed
+INFO retry
+ERROR timeout
+ERROR new failure
