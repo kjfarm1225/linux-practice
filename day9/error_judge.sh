@@ -8,4 +8,10 @@ COUNT=$(grep "ERROR" $TARGET | wc -l)
 
 echo "ERROR 件数:$COUNT"
 
+# もし3件以上なら危険、そうでなければOK
+if [ "$COUNT" -ge 3 ]; then
+    echo "🚨 NG：ERROR が多いです（要確認）"
+else
+    echo "✅ OK：ERROR は少なめです"
+fi
 
