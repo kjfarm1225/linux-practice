@@ -1,0 +1,4 @@
+OK: logs_not_exist/*.log
+NG: logs/app1.log
+NG: logs/app2.log
+NG: logs/app3.log
