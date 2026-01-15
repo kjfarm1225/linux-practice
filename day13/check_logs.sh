@@ -5,6 +5,9 @@ LOG_DIR="$1"
 KEYWORD="$2"
 RESULT_FILE="result.log"
 
+echo "LOG_DIR = $LOG_DIR"
+echo "KEYWORD = $KEYWORD"
+
 for file in $LOG_DIR/*.log
 do
   if grep -q "$KEYWORD" "$file"; then
