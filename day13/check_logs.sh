@@ -1,12 +1,17 @@
 #!/bin/bash
 
-#引数を受け取る
+# ===== 引数チェック =====
+if [ -z "$1" ] || [ -z "$2" ]; then
+  echo "使い方：./check_logs.sh <log_dir> <keyword>"
+  exit 1
+fi
+
 LOG_DIR="$1"
 KEYWORD="$2"
 RESULT_FILE="result.log"
 
-echo "LOG_DIR = $LOG_DIR"
-echo "KEYWORD = $KEYWORD"
+# ===== 結果ファイル初期化 =====
+> "$RESULT_FILE"
 
 for file in $LOG_DIR/*.log
 do
@@ -16,4 +21,3 @@ do
     echo "OK: $file" >> "$RESULT_FILE"
   fi
 done
-
