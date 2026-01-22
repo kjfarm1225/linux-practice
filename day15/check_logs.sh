@@ -3,7 +3,7 @@
 # =====
 # ①引数チェック
 # =====
-if [ -z "$1" ] || [ -z "$2"]; then
+if [ -z "$1" ] || [ -z "$2" ]; then
   echo "使い方：./check_logs.sh <log_dir> <keyword>"
   exit 1
 fi
@@ -36,4 +36,11 @@ fi
 # =====
 # ログ判定処理
 # =====
-
+for file in "$LOG_DIR"/*.log
+do
+  if grep -q "$KEYWORD" "$file"; then
+    echo "NG: $file" >> "$RESULT_FILE"
+  else
+    echo "OK: $file" >> "$RESULT_FILE"
+  fi
+done

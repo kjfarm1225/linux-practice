@@ -1,0 +1,3 @@
+NG: logs/app1.log
+OK: logs/app2.log
+NG: logs/app3.log
